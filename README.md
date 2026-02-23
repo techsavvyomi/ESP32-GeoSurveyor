@@ -44,11 +44,15 @@ The following libraries are required:
    git clone https://github.com/techsavvyomi/RiverDepth.git
    ```
 2. **Configure Cloud (Optional)**:
-   Update the `GOOGLE_SCRIPT_URL` in `Main.ino` with your Google Apps Script deployment URL.
+   - Create a new Google Sheet.
+   - Go to **Extensions > Apps Script** and paste the contents of `CloudScript.gs`.
+   - Update the `openById("...")` in the script with your Spreadsheet ID (found in the URL).
+   - Click **Deploy > New Deployment**, select **Web App**, set access to **Anyone**, and deploy.
+   - Copy the deployment URL and paste it into the `GOOGLE_SCRIPT_URL` variable in `Main.ino`.
 3. **Flash**: Use Arduino IDE or PlatformIO to flash `Main.ino` to your ESP32.
 4. **Calibrate**: Use the provided scripts in the `tests/` directory to verify individual sensor performance.
 
-## �️ Firmware Operation & Menu Guide
+## ️ Firmware Operation & Menu Guide
 
 The GeoSurveyor Pro features a non-blocking, interrupt-driven UI. Navigation is handled via two buttons (**BTN_A** and **BTN_B**).
 

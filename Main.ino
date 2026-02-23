@@ -20,9 +20,7 @@
 
 /* ================= CONFIG ================= */
 // #define MOCK_GPS // Comment this out for real field use
-const char *GOOGLE_SCRIPT_URL = "https://script.google.com/macros/s/"
-                                "AKfycbwixj5Uu2U1FZX-penVuqz_90Ct81XVfZ2X0pCM-"
-                                "pu1fiCGr3er1klGMUVPZs7SGWtIRA/exec";
+const char *GOOGLE_SCRIPT_URL = "xxxxxxxxxxxx";
 
 #define SLEEP_TIMEOUT_MS 120000
 #define SAT_BEEP_INTERVAL_MS 60000
