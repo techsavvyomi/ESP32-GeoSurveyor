@@ -52,7 +52,7 @@ The following libraries are required:
 3. **Flash**: Use Arduino IDE or PlatformIO to flash `Main.ino` to your ESP32.
 4. **Calibrate**: Use the provided scripts in the `tests/` directory to verify individual sensor performance.
 
-## ️ Firmware Operation & Menu Guide
+## 🕹️ Firmware Operation & Menu Guide
 
 The GeoSurveyor Pro features a non-blocking, interrupt-driven UI. Navigation is handled via two buttons (**BTN_A** and **BTN_B**).
 

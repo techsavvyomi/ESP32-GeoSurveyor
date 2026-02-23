@@ -12,7 +12,7 @@ function doPost(e) {
 
     var data = JSON.parse(e.postData.contents);
 
-    var ss = SpreadsheetApp.openById("Enter Sheet URL ");
+    var ss = SpreadsheetApp.openById("Enter Sheet ID");
     var sheet = ss.getSheetByName("Sheet1"); // exact tab name
 
     var timestamp = new Date();
